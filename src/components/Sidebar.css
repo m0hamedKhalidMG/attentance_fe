@@ -1,0 +1,75 @@
+/* src/components/Sidebar.css */
+.sidebar {
+    width: 250px;
+    height: 100vh;
+    background-color: #1a1a1a;
+    color: #fff;
+    position: fixed;
+    left: 0;
+    top: 0;
+    padding-top: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sidebar-image {
+    width: 100px;
+    /* حجم الصورة */
+    height: 100px;
+    border-radius: 50%;
+    /* جعل الصورة دائرية */
+    margin-bottom: 20px;
+    /* مسافة بين الصورة والعنوان */
+    object-fit: cover;
+    /* ضمان أن تكون الصورة مغطية بالكامل */
+}
+
+.sidebar h2 {
+    font-size: 20px;
+    margin-bottom: 30px;
+    color: #ffffffb3;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+    width: 100%;
+}
+.logout-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #d9534f;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .logout-button:hover {
+    background-color: #c9302c;
+  }
+  
+.sidebar ul li {
+    width: 100%;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.sidebar ul li a {
+    color: #ffffffb3;
+    text-decoration: none;
+    font-size: 18px;
+    display: block;
+    padding: 10px 0;
+    transition: color 0.3s, background-color 0.3s;
+}
+
+.sidebar ul li a:hover {
+    color: #ffffff;
+    background-color: #333333;
+    border-radius: 5px;
+}
