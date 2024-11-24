@@ -21,7 +21,7 @@ function App() {
             <Route
               path="/register"
               element={
-                <AdminRoute allowedId="672e5cfaa57f1d7830649217">
+                <AdminRoute allowedId="67434fb7881ede0009c0f178">
                   <Register />
                 </AdminRoute>
               }
